@@ -1,0 +1,42 @@
+.image {
+  max-width: 560px;
+  border-radius: 20px;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.wholeList {
+  display: flex;
+  border: 1px solid black;
+  padding: 3rem;
+  margin: 3rem;
+  border-radius: 20px;
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+  margin-top: -1.3rem;
+}
+
+.title {
+  padding-left: 6rem;
+}
+
+.description {
+  max-width: 800px;
+  padding-top: 2rem;
+}
+
+.author {
+  margin-top: -0.5rem;
+}
+
+.removeButton {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-left: 50rem;
+}
